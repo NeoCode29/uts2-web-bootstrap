@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container-fluid{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-brand{
+    margin-right: 600px;
+}
+
+.nav-item{
+    margin-left: 20px;
+}
+
+main{
+    margin-top: 70px;
+    padding: 0px;
+    background-color: #e5e5e5;
+}
+section {
+    padding: 30px;
+}
+
+
+section:first-child{
+    background-color: #e5e5e5;
+}
+
+section:last-child{
+    background-color: white;
+}
+
+.h4{
+    
+    width: 90vw;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1140px) {
+    .navbar-brand{
+        margin-right: 500px;
+    }
+    .nav-item{
+        margin-left: 20px;
+    }
+    .card-img{
+        width: 300px;
+        height: 300px;
+    }
+    .card{
+        width: 300px;
+    }
+    .container{
+        margin: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .navbar-brand{
+        margin-right: 0px;
+    }
+    .nav-item{
+        margin-left: 20px;
+    }
+
+    .card-img{
+        width: 150px;
+        height: 150px;
+    }
+    .card{
+        width: 150px;
+    }
+
+    .container{
+        margin: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 20px;
+    }
+}
+
+.carousel-item img{
+    width: 90vw;
+}
+
+.container{
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
